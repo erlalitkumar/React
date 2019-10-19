@@ -22,6 +22,12 @@ export default function App(): JSX.Element {
     setTodos(newTodos);
   };
 
+  const removeTodo = (index: number): void => {
+    const newTodos = [...todos];
+    newTodos.splice(index, 1);
+    setTodos(newTodos);
+  };
+
   const completTodos = (index: number): void => {
     const newTodos = [...todos];
     newTodos[index].complete = !newTodos[index].complete;
@@ -49,6 +55,9 @@ export default function App(): JSX.Element {
             </div>
             <button onClick={() => completTodos(index)}>
               {todo.complete ? "incomplete" : "complete"}
+            </button>
+            <button type="button" onClick={() => removeTodo(index)}>
+              &times;
             </button>
           </Fragment>
         ))}
