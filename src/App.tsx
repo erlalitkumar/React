@@ -1,6 +1,7 @@
 import logo from "./logo.svg";
 import "./App.css";
 import Timer from './components/Timer'
+import Net from './components/Net'
 
 import React, { Fragment, useState } from "react";
 type FormElem = React.FormEvent<HTMLFormElement>;
@@ -37,6 +38,7 @@ export default function App(): JSX.Element {
   return (
     <Fragment>
       <h1>Todo list</h1>
+      <Net/>
       <Timer/>
       <form onSubmit={handleSubmit}>
         <input
