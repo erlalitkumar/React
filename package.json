@@ -5,8 +5,7 @@
   "dependencies": {
     "redux": "^4.0.4"
   },
-  "scripts": {
-  },
+  "scripts": {},
   "eslintConfig": {
     "extends": "react-app"
   },
