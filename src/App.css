@@ -1,7 +1,29 @@
+body {background-color: blue;}
 .App {
   text-align: center;
 }
+.mySelector {
+  width: 100%;
+  height: 100%;
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
+  background: #8f61fb;
+}
 
+.mySeparator {
+  width: 100%;
+  height: 70%;
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
+}
+
+.mySeparator2 {
+  width: 100%;
+  height: 30%;
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
+  background: #40327C;
+}
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
   height: 40vmin;
@@ -22,6 +44,43 @@
 .App-link {
   color: #61dafb;
 }
+.myFooter{
+  width: 100%;
+  height: auto;
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
+  background: #40327C;
+}
+.bottomContainer{
+  width: 100%;
+  height: 200px;
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
+  background: #40327C;
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: auto;
+  background-color: #40327C;
+  color: white;
+  text-align: center;
+}
+.DottedBox {
+  background-color: #61dafb;
+  margin: 40px;
+  border: 5px dotted pink;
+  flex-direction: right;
+}
+
+.DottedBox_content {
+  background-color: #8f61fb;
+  font-size: 15px;
+  flex-direction: right;
+}
+
 
 @keyframes App-logo-spin {
   from {

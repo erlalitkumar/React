@@ -10,6 +10,7 @@
 
 # production
 /build
+/public
 
 # misc
 .DS_Store
@@ -29,3 +30,5 @@ yarn-error.log*
 /.idea/inspectionProfiles/Project_Default.xml
 /.idea/React.iml
 /.idea/vcs.xml
+/.idea/workspace.xml
+/yarn.lock
